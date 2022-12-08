@@ -1,5 +1,9 @@
 <?php
   include_once 'partial/header.php';
+
+  if(isset($_SESSION['id'])) {
+    header('location: userPage.php');
+  }
 ?>
 
   <div class='container'>
