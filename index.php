@@ -27,7 +27,7 @@ if(isset($_GET['error'])) {
       echo "
       <div class='container'>
         <div class='alert alert-success' role='alert'>
-          You have successfull registered!
+          You have successfully registered!
         </div>
       </div>
       
